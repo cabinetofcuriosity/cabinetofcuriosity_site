@@ -804,10 +804,12 @@ pre {
   overflow-x: auto;
 }
 
+### This is where I changed it and it fixed everything
 pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
+  white-space: pre-wrap
 }
 
 table {
