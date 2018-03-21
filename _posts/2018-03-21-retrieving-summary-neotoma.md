@@ -181,7 +181,7 @@ head(output_df)
 <0 rows> (or 0-length row.names)
 ```
 
-Now that I have a nice home for my data, I created a loop to download all the data from the Neotoma database. This takes a lot of time to run, I didn't time it, but be prepared to wait if you want to run this. **The finished dataframe can be downloaded [here](../assests/downloads/all_fauna_data.csv)**
+Now that I have a nice home for my data, I created a loop to download all the data from the Neotoma database. This takes a lot of time to run, I didn't time it, but be prepared to wait if you want to run this. **The finished dataframe can be downloaded [here](../assests/download s/all_fauna_data.csv)**
 
 **Note**: Some of the chronologies had multiple dates for `age.older` and `age.younger`, so I had to just grab the first age. Look at [Neotoma database manual](http://neotoma-manual.readthedocs.io/en/latest/db_design_concepts.html#chronology) for how chronology is determined for each site.
 
