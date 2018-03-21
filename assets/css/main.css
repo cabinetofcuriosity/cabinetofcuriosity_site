@@ -802,6 +802,7 @@ blockquote {
 pre {
   padding: 1rem 2rem;
   overflow-x: auto;
+  white-space: pre-wrap
 }
 
 ### This is where I changed it and it fixed everything
