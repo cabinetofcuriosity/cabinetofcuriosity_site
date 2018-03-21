@@ -20,7 +20,7 @@ social-email: ofcuriositydata
 discus-identifier:  # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-116118773-1
 
 # Build Settings
 markdown: kramdown
