@@ -181,7 +181,7 @@ head(output_df)
 <0 rows> (or 0-length row.names)
 ```
 
-Now that I have a nice home for my data, I created a loop to download all the data from the Neotoma database. This takes a lot of time to run, I didn't time it, but be prepared to wait if you want to run this. **The finished dataframe can be downloaded [here](../assests/download s/all_fauna_data.csv)**
+Now that I have a nice home for my data, I created a loop to download all the data from the Neotoma database. This takes a lot of time to run, I didn't time it, but be prepared to wait if you want to run this. **The finished dataframe can be downloaded**:  <a href="{{ site.baseurl }}/assets/downloads/all_fauna_data.csv" target="_blank">all_fauna_data.csv</a>
 
 **Note**: Some of the chronologies had multiple dates for `age.older` and `age.younger`, so I had to just grab the first age. Look at [Neotoma database manual](http://neotoma-manual.readthedocs.io/en/latest/db_design_concepts.html#chronology) for how chronology is determined for each site.
 
@@ -220,6 +220,8 @@ The first few questions I always ask pertain to just understanding the data.
 What is this data? How much of it do I have? What is the distribution of sample types? This is actually one of my favorite parts of data analysis.
 
 **Note**: I just read a great blog post by David Ranzolin: [The Data Analyst as Wanderer: Pre-Exploratory Data Analysis with R](https://daranzolin.github.io/articles/2018-01/preeda). It outlines how he approaches exploring data he has never seen before. 
+
+If you didn't run chunk above, you can download: <a href="{{ site.baseurl }}/assets/downloads/all_fauna_data.csv" target="_blank">all_fauna_data.csv</a>
 
 ```r
 ## Read in from checkpoint
