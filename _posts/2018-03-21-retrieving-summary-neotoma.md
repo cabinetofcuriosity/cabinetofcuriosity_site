@@ -85,13 +85,13 @@ get_site(smilodon)
 A site object containing 31 sites and 8 parameters.
 ```
 
-There are a bunch of great functions to call the specific data you might be interested.  To look at all the great functions this package has to offer, check out the [documentation](https://cran.r-project.org/web/packages/neotoma/neotoma.pdf).
+There are a bunch of great functions to call the specific data you might be interested.  To look at all the functions this package has to offer, check out the [documentation](https://cran.r-project.org/web/packages/neotoma/neotoma.pdf).
 
 ## Exploring with large example
 
 I basically want to visualize **everything** that database has to offer. Of course that would mean downloading the entire database, which I shouldn't do because it is too big. I limited my question to an aspect of the dataset I was interested in: _What is the distribution of animal samples through time?_  
 
-My R workflow is always motivated by the question: How do I get to a data frame that I can play with in ggplot? Which translates into organizing all the data that interests me into a dta frame in [tidy format](https://vita.had.co.nz/papers/tidy-data.pdf), where each sample is a row.
+My R work flow is always motivated by the question: How do I get to a data frame that I can play with in ggplot? Which translates into organizing all the data that interests me into a data frame in [tidy format](https://vita.had.co.nz/papers/tidy-data.pdf), where each sample is a row.
 
 The key to getting all the data I wanted was the `get_data()` function which allows me to download all the data for a given site. I wanted all the species information in the `vertebrate fauna` dataset, which is still a lot of data, but manageable. 
 
@@ -111,7 +111,7 @@ API call was successful. Returned record for Lindenmeier [5LR13]
 str(IDs)  # To look at the data structure of what I downloaded.
 ```
 
-It seems that all data I really wanted were in the `taxon.list` dataframe and the `chronologies` info. 
+It seems that all data I really wanted were in the `taxon.list` data frame and the `chronologies` info. 
 
 In the `taxon.list` section I get a nice description of the sample. Including what kind of fragment I found (bone, antler, ect) and the `taxon.name`.
 
