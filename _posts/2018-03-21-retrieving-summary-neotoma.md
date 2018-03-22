@@ -89,9 +89,9 @@ There are a bunch of great functions to call the specific data you might be inte
 
 ## Exploring with large example
 
-I basically want to visualize **everything** that database has to offer. Of course that would mean downloading the entire database, which I shouldn't do because it is too big. I limited my question to an aspect of the dataset I was interested in: _What is the distribution of animal samples through time?_  
+I basically want to visualize **everything** that the database has to offer. Of course that would mean downloading the entire database, which I shouldn't do because it is too big. I limited my question to an aspect of the dataset I was interested in: _What is the distribution of animal samples through time?_  
 
-My R work flow is always motivated by the question: How do I get to a data frame that I can play with in ggplot? Which translates into organizing all the data that interests me into a data frame in [tidy format](https://vita.had.co.nz/papers/tidy-data.pdf), where each sample is a row.
+My R work flow is always motivated by the question: How do I get to a data frame that I can play with in ggplot? Which translates into organizing all the data that interests me into a data frame in the [tidy format](https://vita.had.co.nz/papers/tidy-data.pdf), where each sample is a row.
 
 The key to getting all the data I wanted was the `get_data()` function which allows me to download all the data for a given site. I wanted all the species information in the `vertebrate fauna` dataset, which is still a lot of data, but manageable. 
 
@@ -111,7 +111,7 @@ API call was successful. Returned record for Lindenmeier [5LR13]
 str(IDs)  # To look at the data structure of what I downloaded.
 ```
 
-It seems that all data I really wanted were in the `taxon.list` data frame and the `chronologies` info. 
+It seems that all the data I really want is in the `taxon.list` data frame and the `chronologies` info. 
 
 In the `taxon.list` section I get a nice description of the sample. Including what kind of fragment I found (bone, antler, ect) and the `taxon.name`.
 
@@ -273,7 +273,7 @@ ggplot(output_df, aes(taxon.group)) +
 
 ![](../assets/img/2018-03-20-retrieving-summary-neotoma_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
-Looks like the Fauna is mostly made up of mammals anyway, so I am just going to remove anything else to narrow my questions a bit.
+Looks like the Fauna dataset is mostly made up of mammals anyway, so I am just going to remove anything else to narrow my questions a bit.
 
 ```r
 mammals <- output_df %>% 
@@ -305,7 +305,7 @@ mammals %>%
 
 ![](../assets/img/2018-03-20-retrieving-summary-neotoma_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
-I don't know what most of these species are! With the exception of *Bison bison* (which is Bison or buffalo) and *Homo sapiens*. Then I just Googled a few species. *Odocoileus virginianus* is white tail deer, which makes perfect sense - these guys are everywhere. The cotton tail rabbit, *Sylvilagus*, is represented twice, one as a subgenus and once as a specific species. Good to note in the future, taxon name can mean a few different things. I saw *Neotoma* and was like "wait, that's the database" and thought is was some error in the data, but really it is the sub-genus of pack rats! What a brilliant name for the database.  Bravo Neotoma database namer whomever you are. I like you.
+I don't know what most of these species are! With the exception of *Bison bison* (which is Bison or buffalo) and *Homo sapiens*. To just explore a few of the other species I just Googled some ones that interested me. *Odocoileus virginianus* is white tail deer, which makes perfect sense - these guys are everywhere. The cotton tail rabbit, *Sylvilagus*, is represented twice, one as a subgenus and once as a specific species. Good to note in the future, taxon names can mean a few different things. I saw *Neotoma* and was like "wait, that's the database" and thought it was some error in the data, but really it is the sub-genus of pack rats! What a brilliant name for the database.  Bravo Neotoma database namer whomever you are. I like you.
 
 Googling the taxa is taking too much time and there are, let's see...
 
@@ -317,7 +317,7 @@ length(unique(mammals$taxon.name))
 ## [1] 1338
 ```
 
-...1338 unique species/sub species represented in this data. Googling is going to take forever! It would be awesome if I could characterize them easier. I would like to represent them in higher order groups. AND OMG I CAN with another Ropensci package: [taxize](https://github.com/ropensci/taxize). 
+...1338 unique species/sub species represented in this data. Googling is going to take forever! It would be awesome if I could characterize them easier. Because doing any sort of visualization on 1,338 unique grouping will be confusing, I would like to represent them in higher order groups. AND OMG I CAN with another Ropensci package: [taxize](https://github.com/ropensci/taxize). This package even allows to find the common names of species easier, no more Googling each species one at a time. 
 
 ## Next Time
 
