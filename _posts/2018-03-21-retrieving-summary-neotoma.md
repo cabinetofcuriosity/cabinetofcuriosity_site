@@ -214,7 +214,7 @@ for (i in 1:length(names(all_fauna))){
 
 ## Checking and summarizing 
 
-Yes! I have all the data on need to start exploring. What I love about this dataset is that it allows me to daydream about what it was like on earth thousands and millions of years ago. Each site is a time capsule documenting a a specific time in earth's history and the bones are from an animal that was once alive roaming the earth living and struggling to survive.
+Yes! I have all the data I need to start exploring. What I love about this dataset is that it allows me to daydream about what it was like on earth thousands and millions of years ago. Each site is a time capsule documenting a a specific time in earth's history and the bones are from an animal that was once alive roaming the earth living and struggling to survive.
 
 The first few questions I always ask pertain to just understanding the data.
 What is this data? How much of it do I have? What is the distribution of sample types? This is actually one of my favorite parts of data analysis.
