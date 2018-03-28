@@ -4,6 +4,7 @@ permalink: ':title/'
 baseurl: 
 url: http://localhost:4000
 
+
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -17,7 +18,8 @@ social-linkedin:
 social-email: ofcuriositydata
 
 # Disqus
-discus-identifier:  # add your discus identifier
+discus-identifier:  cabinetofcuriosity
+comments: true
 
 # Tracker
 analytics: UA-116118773-1
