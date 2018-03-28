@@ -28,7 +28,7 @@ library(taxize)
 
 ```r
 ## Read in previous data.
-all_fauna_data <- read.csv("../data/all_data_5March2018.csv")
+all_fauna_data <- read.csv("../data/all_fauna_data.csv")
 
 ## subset only mammals
 mammals <- all_fauna_data %>%
