@@ -48,7 +48,7 @@ smilodon <- get_dataset(taxonname = 'Smilodon*')
 The API call was successful, you have returned 31 records.
 ```
 
-If you just call the `smilodon` object, you get a nice summary table of all the data.set.ids. The actual object structure you get back is a "large data list" of objects which include yet more lists of objects. 
+If you call the `smilodon` object, you get a nice summary table of all the data.set.ids. The actual object structure you get back is a "large data list" of objects which include yet more lists of objects. 
 
 ```r
 ## Checking the structure of data returned
