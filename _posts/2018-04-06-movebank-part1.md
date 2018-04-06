@@ -114,41 +114,6 @@ dim(all_studies)
 ## [1] 2413   28
 ```
 
-```r
-names(all_studies)
-```
-
-```
-##  [1] "acknowledgements"                 
-##  [2] "bounding_box"                     
-##  [3] "citation"                         
-##  [4] "comments"                         
-##  [5] "enable_for_animal_tracker"        
-##  [6] "grants_used"                      
-##  [7] "has_quota"                        
-##  [8] "i_am_owner"                       
-##  [9] "id"                               
-## [10] "license_terms"                    
-## [11] "location_description"             
-## [12] "main_location_lat"                
-## [13] "main_location_long"               
-## [14] "name"                             
-## [15] "number_of_deployments"            
-## [16] "number_of_events"                 
-## [17] "number_of_individuals"            
-## [18] "number_of_tags"                   
-## [19] "principal_investigator_address"   
-## [20] "principal_investigator_email"     
-## [21] "principal_investigator_name"      
-## [22] "study_objective"                  
-## [23] "study_type"                       
-## [24] "suspend_license_terms"            
-## [25] "timestamp_end"                    
-## [26] "timestamp_start"                  
-## [27] "i_can_see_data"                   
-## [28] "there_are_data_which_i_cannot_see"
-```
-
 
 ```r
 head(all_studies$name)
@@ -358,6 +323,8 @@ I really want to search through what a database has available and download a dat
 
 
 # Summarizing and cleaning data
+
+Download the dataset I just created as a comma separated file here: [black-backed-jackal-Namibia.csv](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/assets/downloads/black-backed-jackal-Namibia.csv)
 
 
 ```r
