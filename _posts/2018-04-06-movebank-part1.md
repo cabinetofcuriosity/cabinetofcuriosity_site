@@ -325,11 +325,11 @@ I really want to search through what a database has available and download a dat
 
 Download the dataset I just created as a comma separated file here: [black-backed-jackal-Namibia.csv](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/assets/downloads/black-backed-jackal-Namibia.csv)
 
+Create the `jackal_movement` data frame by reading the dataset into R:
 
 ```r
-library(skimr)
+jackal_movement <- read.table(file = "black-backed-jackal-Namibia.csv", header=T, sep=",")
 ```
-
 Once you have acquired the data, the next step is to get a sense of what you can expect from the data, and if there are any missing values or weird-looking outlier data.
 
 First, I usually like to get an idea of what types of values my data frame currently contains, and if I need to transform those values at all.
@@ -357,8 +357,9 @@ My data frame is a mix of integers, numeric values, factors, and POSIXct values,
 
 It's really important to check for missing values, and to get a sense of the range of values in your data set. As Ciera introduced in the previous posts, the `skimr` package is really wonderful for this.
 
-
 ```r
+library(skimr)
+
 skim(jackal_movement)
 ```
 
@@ -480,3 +481,37 @@ ggmap(jackal_map) + geom_point(data=jackal_movement, aes(x=location_long, y=loca
 
 In the next post, I will parse out the timestamp data and the fun will start with some analysis!
 
+**Session Info:**
+
+```r
+Sessioninfo()
+```
+
+```
+## R version 3.4.0 (2017-04-21)
+## Platform: x86_64-apple-darwin15.6.0 (64-bit)
+## Running under: OS X El Capitan 10.11.6
+
+## Matrix products: default
+## BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+## LAPACK: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+
+## locale:
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+
+## other attached packages:
+## [1] maps_3.2.0      ggplot2_2.2.1   move_3.0.2      rgdal_1.2-18    raster_2.6-7    sp_1.2-7       
+## [7] geosphere_1.5-7
+
+## loaded via a namespace (and not attached):
+##  [1] Rcpp_0.12.16     knitr_1.20       xml2_1.2.0       magrittr_1.5     munsell_0.4.3   
+##  [6] colorspace_1.3-2 lattice_0.20-35  R6_2.2.2         rlang_0.2.0      plyr_1.8.4      
+## [11] stringr_1.3.0    httr_1.3.1       tools_3.4.0      parallel_3.4.0   grid_3.4.0      
+## [16] gtable_0.2.0     htmltools_0.3.6  lazyeval_0.2.1   yaml_2.1.18      digest_0.6.15   
+## [21] rprojroot_1.3-2  tibble_1.4.2     curl_3.1         evaluate_0.10.1  rmarkdown_1.9   
+## [26] labeling_0.3     stringi_1.1.7    pillar_1.2.1     compiler_3.4.0   scales_0.5.0    
+## [31] backports_1.1.2 
+```
