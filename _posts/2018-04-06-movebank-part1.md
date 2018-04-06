@@ -88,11 +88,10 @@ Here's a [link to manual](https://cran.r-project.org/web/packages/move/vignettes
 
 Create an object to store your Movebank login information. 
 
-**we have to remember to X this out for the post! but you can feel free to use my login**
-
 
 ```r
-loginStored <- movebankLogin(username = "caryn", password = "86sVZgNmyM")
+#fill in your username and passwords here
+loginStored <- movebankLogin(username = <username>, password = <password>)
 ```
 
 The organization of the data in Movebank is centralized around each study, and researchers can upload their data from various different types of sensors.
