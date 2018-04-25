@@ -1,5 +1,5 @@
 ---
-title: "Exploring Movebank Part 1: database summary and downloading a study"
+title: "Movebank Part I: database summary and downloading a study"
 author: "Caryn Johansen"
 date: "2018-04-06 00:00:00 +0300"
 output: 

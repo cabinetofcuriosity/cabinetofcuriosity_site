@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Neotoma Part 1: Retrieving All the Mammal Data'
+title: 'Neotoma Part I: retrieving all the mammal data'
 author: "Ciera Martinez"
 date: 2018-03-20 00:00:00 +0300
 output:
