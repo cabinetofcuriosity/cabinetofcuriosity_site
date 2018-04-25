@@ -1,5 +1,5 @@
 ---
-title: "Movebank Part II: Tracking animal movement in time and space"
+title: "Movebank Part II: tracking animal movement in time and space"
 author: "Caryn Johansen"
 date: "2018-04-18 00:00:00 +0300"
 output: 
