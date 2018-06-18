@@ -3,7 +3,7 @@ layout: post
 title: "Meeting the Modern Naturalists at the Digital Data in Biodiveristy Conference"
 date: 2018-06-18
 author: Ciera Martinez
-description: Attending the Digital Data in Biodiveristy Research Conference 
+description: Attending the Digital Data in Biodiversity Research Conference 
 output: 
   html_document: 
     keep_md: ye
@@ -14,7 +14,7 @@ A naturalist is some who studies "the close observation of organisms - their ori
 
 On June 3 - 6 the Digital Data in Biodiversity Research Conference was held at UC Berkeley. This conference brought together a complex culture of individuals whose share a common mission of providing natural history data to the world. The attendees range from collection managers, curators, IT specialists, academic researchers, to funders. I made it my mission to talk to as many people I could in an attempt to understand the backgrounds, motivations, and challenges of this community.
 
-If you are like me, very new to understanding the culture of the natural history data community, let me first try to explain the context and scope of this meeting.  Natural history data is broad in scope and can range from species occurrence data to environmental measurements to basically any data that describes how organisms interact with each other and their environment. Natural History Museums sit in a central position within this community because they have been collecting and carefully storing plant and animal specimens in their collections for hundreds of years. These animals are vouchered, meaning, at a minimum, each animal has an expert IDing the species, location of collection, and time collected. These vouchered organisms in my opinion are the heart of this community and often act as an anchor for other types of data.
+If you are like me, very new to understanding the culture of the natural history data community, let me first try to explain the context and scope of this meeting.  Natural history data is broad in scope and can range from species occurrence data to environmental measurements to basically any data that describes how organisms interact with each other and their environment. Natural History Museums sit in a central position within this community because they have been collecting and carefully storing plant, animal, fungi, bacteria, insects ect. specimens in their collections for hundreds of years. These animals are vouchered, meaning, at a minimum, hopefully each specimen has a species ID, location of collection, and time collected. These vouchered organisms in my opinion are the heart of this community and often act as an anchor for other types of data.
 
 ## Current reach and trajectory of natural history data
 
