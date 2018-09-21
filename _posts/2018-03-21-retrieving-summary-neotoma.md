@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Neotoma Part 1: Retrieving All the Mammal Data'
+title: 'Neotoma Part I: retrieving all the mammal data'
 author: "Ciera Martinez"
 date: 2018-03-20 00:00:00 +0300
 output:
@@ -48,7 +48,7 @@ smilodon <- get_dataset(taxonname = 'Smilodon*')
 The API call was successful, you have returned 31 records.
 ```
 
-If you just call the `smilodon` object, you get a nice summary table of all the data.set.ids. The actual object structure you get back is a "large data list" of objects which include yet more lists of objects. 
+If you call the `smilodon` object, you get a nice summary table of all the data.set.ids. The actual object structure you get back is a "large data list" of objects which include yet more lists of objects. 
 
 ```r
 ## Checking the structure of data returned

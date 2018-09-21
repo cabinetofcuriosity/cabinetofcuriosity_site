@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Neotoma Part 2: Extinct Mammal Distributions'
+title: 'Neotoma Part II: extinct mammal distributions'
 author: "Ciera Martinez"
 date: "2018-03-28 00:00:00 +0300"
 output:
