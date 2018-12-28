@@ -7,18 +7,18 @@ description: A visit to the National Museum of Denmark
 output: 
   html_document: 
     keep_md: ye
-img: /copenhagen_files/butterfly_banner.jpg
+img: /2018-05-17-digital_data_in_copenhagen/butterfly_banner.jpg
 ---
 
 I was fortunate enough to visit Copenhagen a few weeks ago and couldn't resist tracking down the people involved with digitizing the National Museum of Denmark's Collections. I sat down with Dr. Anders Drud Jordan and Dr. Martin Stein to discuss how they are approaching digitizing their collections and their perspective on the motivations, challenges, and culture surrounding the global effort to make natural history data open. I met them at their offices located in Central Copenhagen, which fortunate for me, resides in a park that houses an absolutely stunning Botanical garden and the University of Copenhagen Geological Museum.
 
-<center><p><img src="../assets/img/copenhagen_files/images-03.jpg" alt=""></p></center>
+<center><p><img src="../assets/img/2018-05-17-digital_data_in_copenhagen/images-03.jpg" alt=""></p></center>
 
 When I arrived their work space was bustling with activity and excitement for the addition of a new computer dedicated to the digitization efforts (which arrived during my visit). While one room was being housed with the new computer, another room was was full of film editing equipment for making videos. They were currently working on a video about the digitization efforts occurring at a [facility](http://digitarium.fi/en/content/digitisation-centre.html) at Sertifer in Joensuu, Finland. Finland works with many museums to help automate the digitization process and holds an impressive semi-automatic imaging work flow. 
 
 As head of the digital media at the museum, Anders leads a team involved in a part of the digitization efforts at the museum.  Anders received his PhD in Biology from the University of Copenhagen, Denmark and from there he received a solid background in science communication working in TV and documentary production. Martin received his PhD from Uppsala University in Sweden where he studied Paleontology. His path mimicked myself, in that we were both domain specific scientists who then fell for all things data and now his work is predominantly computational in nature. When I asked Martin his title is, he chuckled because his position is so multifaceted, but if pressed, considers himself an IT - Architect. 
 
-<center><p><img src="../assets/img/copenhagen_files/images-04.jpg" alt=""></p></center>
+<center><p><img src="../assets/img/2018-05-17-digital_data_in_copenhagen/images-04.jpg" alt=""></p></center>
 
 ## Motivations 
 
@@ -30,7 +30,7 @@ Since the data in the museum collections are so diverse, they are starting with 
 
 They worked with a team in Finland (mentioned above) for the initial photographing of the species. While the team in Finland automated the photographing, it still took manual effort to carefully place each moth separately and unobstructed with a color key and scale. The label which identifies each moth was photographed separately. While very time and work intensive, their strategy was brilliant in its simplicity and designed to alleviate many of the more downstream challenges of digitization efforts, such as data extraction. 
 
-<center><p><img src="../assets/img/copenhagen_files/images-02.jpg" alt=""></p></center>
+<center><p><img src="../assets/img/2018-05-17-digital_data_in_copenhagen/images-02.jpg" alt=""></p></center>
 
 When asked about what they foresee as the main challenges of working with the data, the first response was data extraction. For example, on their current project with the Zygenidae moths, data extraction involves the extraction of the individual moth from the photograph and the extraction of the label information. This is a challenge faced by every museum trying to digitize their collections and currently there are not computational tools to universally solve these problems. There are amazing tools like the [Inselect](https://naturalhistorymuseum.github.io/inselect/) from the London Museum of Natural history, but tools like these, no matter how sophisticated, often falter with overlapping specimens or badges. As, for the badge information, they are setting up a citizen science pilot program to help identify the handwritten labels of these specimens. It must be extremely difficult deciding where to place energy when solving problems such as these. Sometimes building a programmatic tool for something humans are so good at (reading handwriting) could be misdirected energy. I am very interested in following the results of this program.
 
@@ -48,9 +48,9 @@ There are questions about the data itself. How should institutions be approachin
 
 I also spent an extraordinary amount of time exploring the beautiful collections of the Denmark National Museums.  The National Museums are grouped into three institutions: 1. The Botanical Gardens 2. The Geological Museum and 3. The Zoological museum.  I visited all three and so should you if you are ever in Copenhagen.  The Zoological Museum houses an impressive collection of skeletal remains and bones. Including one of the largest polar bear skull collections in the world.
 
-<center><p><img src="../assets/img/copenhagen_files/images-05.jpg" alt=""></p></center>
+<center><p><img src="../assets/img/2018-05-17-digital_data_in_copenhagen/images-05.jpg" alt=""></p></center>
 
 I was most excited to see an exhibit on a fore father of natural history collections - [Ole Worm](https://en.wikipedia.org/wiki/Ole_Worm)! The [first post of this blog](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/welcome/) features an image from the book "Musei Wormiani Historia". This is an illustration of one of the first Cabinets of Curiosities created by Danish scientist Ole Worm. I saw the real book in which the image came from AND a life size diorama of the illustration! A fitting end to an incredibly insightful visit. 
 
-<center><p><img src="../assets/img/copenhagen_files/images-01.jpg" alt=""></p></center>
+<center><p><img src="../assets/img/2018-05-17-digital_data_in_copenhagen/images-01.jpg" alt=""></p></center>
 
