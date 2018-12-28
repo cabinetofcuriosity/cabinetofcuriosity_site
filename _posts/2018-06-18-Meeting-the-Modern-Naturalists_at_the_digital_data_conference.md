@@ -7,7 +7,7 @@ description: Attending the Digital Data in Biodiversity Research Conference
 output: 
   html_document: 
     keep_md: ye
-img: /digitalData_files/whale.jpg
+img: /2018-06-18-Meeting-the-Modern-Naturalists_at_the_digital_data_conference/whale.jpg
 ---
 
 A naturalist is some who studies "the close observation of organisms - their origins, their evolution, their behavior, and their relationships with other species"[1](https://www.chronicle.com/article/The-Impending-Extinction-of/4002).  This definition came from an article from 2000 by Wilcove and Eisner with the sensational title: The Impending Extinction of Natural History. Last week I attended the [Second Annual Digital Data in Biodiversity Research Conference](https://www.idigbio.org/content/registration-now-open-emerging-innovations-biodiversity-data) and I am happy to report that not only are naturalists alive and well - they are thriving.  These modern naturalists are obsessed with data and arming themselves to use this data to fight for this planet.
@@ -21,7 +21,7 @@ If you are like me, very new to understanding the culture of the natural history
 The most exciting aspects of this data are the possibilities which emerge when you combine more detailed data to these vouchered organisms, and with new technologies, the richness describing these vouchered organisms (and their environment) is becoming increasingly exciting. For example Scott Edwards (Harvard) gave an [talk](https://www.idigbio.org/wiki/images/e/e6/Edwards_iDigBio_Berkeley_2018.pdf) about the future of combining genomic information to museum collections and embracing genomic technological advances, such as ATAC-seq, to gain never before glimpses of evolutionary selection at the epigenetic level through time. Or, as was detailed in a [talk](https://www.idigbio.org/wiki/images/9/9c/2018_iDigBio_Blackburn.pdf) by David Blackburn (Florida Museum of Natural History), connecting extremely details shape data employing non-destructive CT scanning technologies. Researchers are now capable of 3D morphometric analysis - we are in an age of housing full animal architectural information, including measurements of internal organs from specimens that were alive sometimes hundreds of years ago. This information is then fully available in community based databases on-line, as illustrated by Julie Winchester's [talk](https://www.idigbio.org/wiki/images/2/29/Winchester-iDigBio_MorphoSource_Talk_6-5-2018_final.pdf) on [MorphoSource](https://www.morphosource.org/) - an entire database dedicated to house 3D data! So. Cool.
 
 <center><figure>
-    <img src="../assets/img/digitalData_files/frogs.jpg" alt="my alt text"/>
+    <img src="../assets/img/2018-06-18-Meeting-the-Modern-Naturalists_at_the_digital_data_conference/frogs.jpg" alt="my alt text"/>
   <figcaption>Image from David Blackburns talk showing CT scans of two preserved frog specimens - Phrynobatrachus (left) and Barbourula (right). Link to <a href="https://www.idigbio.org/wiki/images/9/9c/2018_iDigBio_Blackburn.pdf">talk</a></figcaption>
 </figure></center>
 
@@ -42,7 +42,7 @@ I wish there was more talk about career development for the computational expert
 I would just like to thank everyone that took the time to answer my never ending stream of questions. On the first day I approached this meeting feeling like a complete outsider, but by the end I had an overwhelming feeling that I "found my people". This is an amazing tight knit community that was extremely welcoming. This meeting, apart from all others I have attended, had the most concentrated group of people whom feel that they are inherently driven by a mission and duty to their work. They are a group of people who admire and acknowledge their place in history and are easily overtaken by the beauty of the natural world (as evidence to the constant stopping to observe every plant, insect, and long breaks with binoculars to observe the [peregrine falcons chicks on Berkeley's campus](http://news.berkeley.edu/2018/05/18/three-peregrine-chicks-banded/)). I left each conversation inspired by the endless possibilities that lie within this community. Thank you iDIGBio for arranging such an stimulating meeting. 
 
 <center><figure>
-  <img src="../assets/img/digitalData_files/zoologicalMuseum_1.jpg" alt="my alt text"/>
+  <img src="../assets/img/2018-06-18-Meeting-the-Modern-Naturalists_at_the_digital_data_conference/zoologicalMuseum_1.jpg" alt="my alt text"/>
   <figcaption>Images from a tour of the <a href="http://mvz.berkeley.edu/">Museum of Vertebrate Zoology at Berkeley</a></figcaption>
 </figure></center>
 
