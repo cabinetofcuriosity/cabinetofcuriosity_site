@@ -7,7 +7,7 @@ output:
     keep_md: yes
 layout: post
 description: Connecting to and downloading awesome data from the Neotoma database
-img: neotoma_part1.png
+img: 2018-03-20-retrieving-summary-neotoma_files/neotoma_part1.png
 ---
 
 ## About Neotoma

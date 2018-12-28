@@ -7,7 +7,7 @@ output:
     keep_md: yes
   pdf_document: default
 layout: post
-img: mammoths_1.jpg
+img: 2018-03-28-exploring-neotoma-part2_files/mammoths_1.jpg
 description: null
 ---
 

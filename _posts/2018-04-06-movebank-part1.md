@@ -6,7 +6,7 @@ output:
   html_document: 
     keep_md: yes
 layout: post
-img: jackal_skull.jpg
+img: 2018-04-03-movebank-part1_files/jackal_skull.jpg
 description: null
 ---
 

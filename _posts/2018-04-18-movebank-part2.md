@@ -6,7 +6,7 @@ output:
   html_document: 
     keep_md: yes
 layout: post
-img: wolf_BHL.jpg
+img: 2018-04-12_movebank_part2_files/wolf_BHL.jpg
 description: null
 ---
 
