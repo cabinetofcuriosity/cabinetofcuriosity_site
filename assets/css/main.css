@@ -19,9 +19,12 @@ html {
    ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
+ ********
+ * Set global text size
  */
 body {
   margin: 0;
+  font-size: 15px; 
 }
 
 /**
