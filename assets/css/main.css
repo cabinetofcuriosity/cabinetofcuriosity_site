@@ -19,9 +19,12 @@ html {
    ========================================================================== */
 /**
  * Remove the margin in all browsers (opinionated).
+ ********
+ * Set global text size
  */
 body {
   margin: 0;
+  font-size: 15px; 
 }
 
 /**
@@ -878,6 +881,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  width: 100%;
 }
 
 ::-moz-selection {
@@ -1155,6 +1159,10 @@ footer .copyright {
   color: #263959;
 }
 
+.post .post-content .post-title a:hover {
+  color: #279FCD;
+}
+
 .post .post-content p {
   margin-top: 0;
 }
@@ -1185,6 +1193,19 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+}
+
+.wrap-content a {
+  color: #279FCD;
+  text-decoration: none;
+}
+
+.wrap-content a:hover {
+  text-decoration: underline; 
+}
+
+.wrap-content a:visited {
+  color: purple;
 }
 
 .header-page {
