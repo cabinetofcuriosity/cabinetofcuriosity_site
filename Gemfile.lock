@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     activesupport (4.2.10)
       i18n (~> 0.7)
@@ -12,7 +13,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.5)
-    ffi (1.9.23)
+    ffi (~> 1.9.24)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     html-pipeline (2.7.1)
@@ -81,4 +82,4 @@ DEPENDENCIES
   jemoji
 
 BUNDLED WITH
-   1.16.1
+   1.16.4
