@@ -1227,6 +1227,16 @@ a.newer-posts:hover {
   color: purple;
 }
 
+.wrap-content .avatar-image {
+  width: 150px;
+  float: left;
+  padding-right: 20px;
+}
+.wrap-content .avatar-image p{
+  text-align: center;
+  font-weight: bold;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;

@@ -1,6 +1,7 @@
 ---
 title: 'Neotoma Part II: extinct mammal distributions'
 author: "Ciera Martinez"
+avatar: avatars/cieraavatar2.png
 date: "2018-03-28 00:00:00 +0300"
 output:
   html_document:

@@ -1,6 +1,7 @@
 ---
 title: 'Neotoma Part I: retrieving all the mammal data'
 author: "Ciera Martinez"
+avatar: avatars/cieraavatar2.png
 date: 2018-03-20 00:00:00 +0300
 output:
   html_document:

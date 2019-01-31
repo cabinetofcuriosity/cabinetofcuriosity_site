@@ -3,6 +3,7 @@ layout: post
 title: "Digitizing Data at the National Museum of Denmark"
 date: 2018-05-15
 author: Ciera Martinez
+avatar: avatars/cieraavatar2.png
 description: A visit to the National Museum of Denmark
 output: 
   html_document: 

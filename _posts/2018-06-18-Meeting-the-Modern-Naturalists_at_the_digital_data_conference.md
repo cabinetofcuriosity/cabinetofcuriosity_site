@@ -3,6 +3,7 @@ layout: post
 title: "Meeting the Modern Naturalists at the Digital Data in Biodiversity Conference"
 date: 2018-06-18
 author: Ciera Martinez
+avatar: avatars/cieraavatar2.png
 description: Attending the Digital Data in Biodiversity Research Conference 
 output: 
   html_document: 
