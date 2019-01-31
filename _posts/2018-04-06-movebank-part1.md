@@ -8,6 +8,7 @@ output:
 layout: post
 img: 2018-04-03-movebank-part1_files/jackal_skull.jpg
 description: null
+legend : "Jackal Skull"
 ---
 
 The next biological data source that we are going to investigate is [Movebank](https://www.movebank.org/). They say what they are best:

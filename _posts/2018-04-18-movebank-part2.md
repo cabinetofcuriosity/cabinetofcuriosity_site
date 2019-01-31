@@ -8,6 +8,7 @@ output:
 layout: post
 img: 2018-04-12_movebank_part2_files/wolf_BHL.jpg
 description: null
+legend : "Wolf BHL"
 ---
 
 In my [previous post](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/movebank-part1/), I talked about the awesome data resource that is Movebank, and how I acquired data from that source. 

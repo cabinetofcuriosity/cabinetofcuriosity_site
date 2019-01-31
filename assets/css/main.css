@@ -1191,6 +1191,25 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
+.img-legend {
+  width: 100%;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.img-legend a {
+  color: #279FCD;
+  text-decoration: none;
+}
+
+.img-legend a:hover {
+  text-decoration: underline; 
+}
+
+.img-legend a:visited {
+  color: purple;
+}
+
 .wrap-content {
   padding: 20px;
 }

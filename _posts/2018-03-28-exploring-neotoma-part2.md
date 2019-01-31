@@ -9,6 +9,7 @@ output:
 layout: post
 img: 2018-03-28-exploring-neotoma-part2_files/mammoths_1.jpg
 description: null
+legend : "Mammoth"
 ---
 
 In the [previous post](https://cabinetofcuriosity.github.io/cabinetofcuriosity_site/retrieving-summary-neotoma/), we connected to the [Neotoma database](https://www.neotomadb.org/) which houses Paleoecological data from plants to animal. We isolated the fauna dataset which includes bone samples retreived from hundreds of dig sites. In this post we will explore the geographic distribution of exitinct mammal samples discovered across North America.  We will also learn how to interact with the `taxize` R package to retrieve comprehensive taxonomic information on each of our samples. 
