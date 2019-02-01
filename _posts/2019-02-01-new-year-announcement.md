@@ -4,12 +4,12 @@ title: "New Year, New Content"
 date: 2019-02-01
 author: Ciera Martinez
 avatar: avatars/cieraavatar2.png
-description: 
+description: null
 output: 
   html_document: 
     keep_md: yes
-img: /whale.jpg
-legend :2019-02-01-new-year-announcement/protea.jpg
+img: 2019-02-01-new-year-announcement/protea.jpg
+legend : protea
 ---
 
 Although this site has been quiet these past few months, we have been a flurry of activity here at UC Berkeley and around the world.  
