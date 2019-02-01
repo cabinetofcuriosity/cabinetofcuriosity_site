@@ -9,7 +9,7 @@ output:
   html_document: 
     keep_md: yes
 img: /whale.jpg
-legend :2019-02-01-new-year-announcement/protea
+legend :2019-02-01-new-year-announcement/protea.jpg
 ---
 
 Although this site has been quiet these past few months, we have been a flurry of activity here at UC Berkeley and around the world.  
