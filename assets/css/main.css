@@ -928,6 +928,26 @@ table tfoot td {
   background-color: #ffffff;
 }
 
+.sidebar-nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sidebar-nav ul li {
+  line-height: 30px;
+  text-align: center;
+}
+
+.sidebar-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-nav .active a{
+  color: #279FCD !important;
+}
+
+
 .about {
   margin: 0 0 40px;
   text-align: center;
@@ -1334,8 +1354,6 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
-
-
 
 .hidden {
   display: none!important;
