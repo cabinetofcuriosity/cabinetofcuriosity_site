@@ -10,6 +10,7 @@ output:
     keep_md: ye
 img: 2018-06-18-Meeting-the-Modern-Naturalists_at_the_digital_data_conference/whale.jpg
 legend : "Whale"
+tags: Tutorials
 ---
 
 A naturalist is some who studies "the close observation of organisms - their origins, their evolution, their behavior, and their relationships with other species"[1](https://www.chronicle.com/article/The-Impending-Extinction-of/4002).  This definition came from an article from 2000 by Wilcove and Eisner with the sensational title: The Impending Extinction of Natural History. Last week I attended the [Second Annual Digital Data in Biodiversity Research Conference](https://www.idigbio.org/content/registration-now-open-emerging-innovations-biodiversity-data) and I am happy to report that not only are naturalists alive and well - they are thriving.  These modern naturalists are obsessed with data and arming themselves to use this data to fight for this planet.

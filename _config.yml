@@ -21,6 +21,12 @@ social-email: ofcuriositydata
 discus-identifier:  cabinetofcuriosity
 comments: true
 
+tags:
+  - Visits
+  - Contributes
+  - Tutorials
+  - Interviews
+
 # Tracker
 analytics: UA-116118773-1
 

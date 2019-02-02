@@ -1092,6 +1092,12 @@ footer .copyright {
   margin: 0;
 }
 
+.post-list-container {
+  width: 100%;
+  display: row;
+  display: contents;
+}
+
 .post {
   width: 100%;
   max-width: 100%;
@@ -1328,6 +1334,14 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+
+
+
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
 .blog-tags {
   width: 100%;
   background-color: #ffffff;
@@ -1386,6 +1400,9 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .post-list-container {
+    display: contents;
+  }
   .post {
     width: 48%;
     max-width: 100%;

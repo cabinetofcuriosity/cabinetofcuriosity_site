@@ -3,6 +3,7 @@ layout: default
 ---
 
 <aside class="sidebar">
+
   <header>
     <div class="about">
       <div class="cover-author-image">
@@ -12,11 +13,25 @@ layout: default
       <p>{{site.about-author}}</p>
     </div>
   </header> <!-- End Header -->
+  <div class="sidebar-nav">
+    <ul class="post-tags-list">
+      <li class="post-tag-item">
+        <a href="{{site.baseurl}}/about" target="_blank">
+          About
+        </a>
+      </li>
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+        <li class="post-tag-item" id="{{ t }}-item">
+          <a href="" onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+        </li>
+      {% endfor %}
+    </ul>  
+  </div>
   <footer>
-    <section class="contact">
-      <h3 class="contact-title">About</h3>
-      <center><p><a href="{{site.baseurl}}/about" target="_blank"><img src="{{site.baseurl}}/assets/img/about_icon.png" alt="" height="18" width="18" </a></a></p></center>
-    </section>
+    
     <section class="contact">
       <h3 class="contact-title">Contact Us</h3>
       <ul>

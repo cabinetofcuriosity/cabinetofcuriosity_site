@@ -6,3 +6,43 @@
   ga('create', '{{ site.analytics }}', 'auto');
   ga('send', 'pageview');
 </script> <!-- End Analytics -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	
+	function filter(tag) {
+	  setActiveTag(tag);
+	  showContainer(tag);
+	}
+
+	function setActiveTag(tag) {
+	  // loop through all items and remove active class
+	  var items = document.getElementsByClassName('post-tag-item');
+	  for(var i=0; i < items.length; i++) {
+	    items[i].setAttribute('class', 'post-tag-item');
+	  }
+
+	  // set the selected tag's item to active
+	  var item = document.getElementById(tag + '-item');
+	  if(item) {
+	    item.setAttribute('class', 'post-tag-item active');
+	  }
+	}
+
+	function showContainer(tag) {
+	  // loop through all lists and hide them
+	  var lists = document.getElementsByClassName('post-list-container');
+	  for(var i=0; i < lists.length; i++) {
+	    lists[i].setAttribute('class', 'post-list-container hidden');
+	  }
+
+	  // remove the hidden class from the list corresponding to the selected tag
+	  var list = document.getElementById(tag + '-container');
+	  if(list) {
+	    list.setAttribute('class', 'post-list-container');
+	  }
+	}
+
+	
+</script>
+
