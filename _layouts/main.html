@@ -20,12 +20,13 @@ layout: default
           About
         </a>
       </li>
+      {% if page.url != "/" %}
       <li class="post-tag-item">
         <a href="{{site.baseurl}}/">
           All Posts
         </a>
       </li>
-      {% if page.url == "/" %}
+      {% else %}
         <li class="post-tag-item">
           <a href="">
             --- Tags ---
