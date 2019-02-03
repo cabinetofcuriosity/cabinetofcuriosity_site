@@ -20,14 +20,26 @@ layout: default
           About
         </a>
       </li>
-      {% assign sorted_tags = site.tags | sort %}
-      {% for tag in sorted_tags %}
-        {% assign t = tag | first %}
-        {% assign posts = tag | last %}
-        <li class="post-tag-item" id="{{ t }}-item">
-          <a href="" onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+      <li class="post-tag-item">
+        <a href="{{site.baseurl}}/">
+          All Posts
+        </a>
+      </li>
+      {% if page.url == "/" %}
+        <li class="post-tag-item">
+          <a href="">
+            --- Tags ---
+          </a>
         </li>
-      {% endfor %}
+        {% assign sorted_tags = site.tags | sort %}
+        {% for tag in sorted_tags %}
+          {% assign t = tag | first %}
+          {% assign posts = tag | last %}
+          <li class="post-tag-item" id="{{ t }}-item">
+            <a href="" onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+          </li>
+        {% endfor %}
+      {% endif %}
     </ul>  
   </div>
   <footer>
