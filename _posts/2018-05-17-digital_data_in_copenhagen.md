@@ -10,6 +10,7 @@ output:
     keep_md: ye
 img: 2018-05-17-digital_data_in_copenhagen/butterfly_banner.jpg
 legend : "Butterfly Banner"
+tags: Visits
 ---
 
 I was fortunate enough to visit Copenhagen a few weeks ago and couldn't resist tracking down the people involved with digitizing the National Museum of Denmark's Collections. I sat down with Dr. Anders Drud Jordan and Dr. Martin Stein to discuss how they are approaching digitizing their collections and their perspective on the motivations, challenges, and culture surrounding the global effort to make natural history data open. I met them at their offices located in Central Copenhagen, which fortunate for me, resides in a park that houses an absolutely stunning Botanical garden and the University of Copenhagen Geological Museum.
