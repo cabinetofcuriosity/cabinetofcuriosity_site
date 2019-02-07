@@ -1,7 +1,7 @@
 ---
 title: "Movebank Part I: database summary and downloading a study"
 author: "Caryn Johansen"
-avatar: avatars/cieraavatar2.png
+avatar: avatars/caryn.png
 date: "2018-04-06 00:00:00 +0300"
 output: 
   html_document: 

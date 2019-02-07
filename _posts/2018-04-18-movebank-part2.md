@@ -1,7 +1,7 @@
 ---
 title: "Movebank Part II: tracking animal movement in time and space"
 author: "Caryn Johansen"
-avatar: avatars/cieraavatar2.png
+avatar: avatars/caryn.png
 date: "2018-04-18 00:00:00 +0300"
 output: 
   html_document: 
