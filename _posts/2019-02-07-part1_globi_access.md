@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GLoBI Part I - Measuring the interactions of species
+title: GloBI Part I - Measuring the interactions of species
 date: 2019-02-07
 author: Yikang Li
 avatar: avatars/yikang.png
