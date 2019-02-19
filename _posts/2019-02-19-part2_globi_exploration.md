@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What do birds prey on? Explore species interaction data using networks, Wikipedia, and automate it all with Python functions
-date: 2019-02-18
+title: Learn to ask about species interactions effectively using automation and network graph visualization
+date: 2019-02-19
 author: Yikang Li
 avatar: avatars/yikang.png
 description: null
@@ -13,7 +13,9 @@ legend: biodiversitylibrary.org/page/50095133
 tags: Tutorials
 ---
 
-To explore using the GloBI database a bit further then [last time](http://curiositydata.org/part1_globi_access/), I decided to create some Python functions that make it easier for users to explore their favorite organism interactions.  This post will be very useful if you are interested in exploring GloBI data efficiently using a Python [Jupyter Notebook](https://jupyter.org/) enviroment.  I created useful functions that allow both visualizing how organisms interact with each other and by creating URL links to information on (species and groups of species) through Wikipedia directly in the Jupyter notebook.  
+What do birds Prey on? What are the main parasites that host on humans? You can answer all these questions and more wiht the [Global Biotic Interactions (GloBI) database](https://www.globalbioticinteractions.org/). 
+
+To explore the GloBI database a bit further then [last time](http://curiositydata.org/part1_globi_access/), I decided to create some Python functions that make it easier for users to explore their favorite organism interactions.  This post will be very useful if you are interested in exploring GloBI data efficiently using a Python [Jupyter Notebook](https://jupyter.org/) enviroment.  I created useful functions that allow both visualizing how organisms interact with each other and by creating URL links to information on (species and groups of species) through Wikipedia directly in the Jupyter notebook.  
 
 One of the most efficient ways to view information like this is to use [Network Graphs](https://en.wikipedia.org/wiki/Graph_theory). Network graphs use information from both the link and node data sets to generate a graphical depiction of the network [1](http://support.sas.com/documentation/cdl/en/grnvwug/62918/HTML/default/viewer.htm#p0q343kxjyj36jn1e2z6lulkda3j.htm). Directed Network graphs give even more information by helping show how your data links direct different nodes. For GloBI data, the link is the interactions type, like "eats", while the node is the species or organism you are interested in. This directed network graphs allow you to efficiently ask questions like "What are the top taxa that birds prey on?"
 
@@ -30,7 +32,7 @@ One of the most efficient ways to view information like this is to use [Network 
 **In this post I will**:
 
 1. <a href = "#section1">search for data by taxa name</a>,
-2. <a href = "#section2">find the top target taxa for which our candidate organisms interact with</a>,
+2. <a href = "#section2">find the top target taxa for which candidate organisms interact with</a>,
 3. <a href = "section3">make your data output come alive with automation of URL links to Wikipedia</a>
 4. <a href = "section4">create directed network visualizations </a> 
 
@@ -719,7 +721,7 @@ target_hs_eats.groupby(target_hs_eats['targetTaxonClassName']).size().sort_value
 
 
 <a name="section2"></a>
-# Find the top target taxa for which our candidate organisms interact with
+# Find the top target taxa for which candidate organisms interact with
 
 Above all, we have found a list of top target classes of 'Homo sapiens' for the "eats" interaction type. But what if I wanted to look for the top target, not only in "eats", but across any of the columns. For this I created a function, 'find_top_target', that could get a list of any rank for any source taxon and any interaction type. 
 
@@ -838,7 +840,7 @@ find_top_target('Actinopterygii', 'preysOn', 'targetTaxonClassName')
 Here, the source 'Actinopterygii' itself is in the class level. And we can see that the top target class of 'Actinopterygii' preys on is also 'Actinopterygii', which means the species under 'Actinopterygii' always preys on species under same the same class. But what is Actinopterygii? 
 
 <a name="section3"></a>
-# make your data output come alive with automation of URL links to Wikipedia
+# Make your data output come alive with automation of URL links to Wikipedia
 
 <figure>
     <img src="../assets/img/2019-02-19-part2_globi_exploration/fish2.jpg" alt="my alt text">
@@ -897,13 +899,14 @@ def top_targets_with_wiki(source, interaction_type, rank):
 
 **Dont' Forget**: For this function to work correctly you **must** be using Jupyter notebooks.
 
+
+### What do short tail bats eat?
+
 This first example we are asking to give the results of all taxons that are eaten by 'Carollia perspicillata', [the short tailed bat](https://en.wikipedia.org/wiki/Seba%27s_short-tailed_bat).
 
 ```python
 top_targets_with_wiki('Carollia perspicillata', 'eats', 'targetTaxonClassName')
 ```
-
-<br>
 
 <style  type="text/css" >
 </style>  
@@ -924,12 +927,14 @@ top_targets_with_wiki('Carollia perspicillata', 'eats', 'targetTaxonClassName')
 
 <br>
 
+### What are Humans the hosts of?
+
+Use the `top_targets_with_wiki()` function and click the result links to really creep yourself out!
 
 ```python
 top_targets_with_wiki('Homo sapiens', 'hostOf', 'targetTaxonFamilyName')
 ```
 
-<br>
 
 
 <style  type="text/css" >
@@ -969,15 +974,21 @@ top_targets_with_wiki('Homo sapiens', 'hostOf', 'targetTaxonFamilyName')
     </tr></tbody> 
 </table> 
 
+
+<figure>
+    <img src="../assets/img/2019-02-19-part2_globi_exploration/humanhosts.jpg" alt="my alt text">
+  <center><figcaption> Can you find the tapeworm in the illustration? <a href="biodiversitylibrary.org/page/28687600">biodiversitylibrary.org/page/28687600</a>
+  </figcaption></center>
+</figure>
+
 <br>
 
+### What do fish prey on?
 
 ```python
 top_targets_with_wiki('Actinopterygii', 'preysOn', 'targetTaxonClassName')
 ```
 
-
-<br>
 
 <style  type="text/css" >
 </style>  
@@ -1118,7 +1129,7 @@ plot_interaction('Homo sapiens', ['hostOf'], 'targetTaxonFamilyName', 5)
 ```
 
 
-![png](../assets/img/2019-02-19-part2_globi_exploration/output_46_0.png/output_49_0.png)
+![png](../assets/img/2019-02-19-part2_globi_exploration/output_49_0.png)
 
 
 
