@@ -10,6 +10,7 @@ output:
     keep_md: yes
 img: 2019-02-05-part1_globi_access/bat_header.jpg
 legend : biodiversitylibrary.org/page/40020007
+tags: Tutorials
 ---
 
 I am Yikang Li, an international student from Tianjin, China. I recently just graduated from UC Berkeley with BA degree in Statistics. I have long been interested in data science and therefore seized every possible means to be part of projects to improve my practical ability in data mining.  This interest lead me to exploring Biodiversity Data with the Cabinet of Curiosity Team. During this research experience, I, together with other interns, studied different natural history databases and revised each other’s work using Github. During our first week togerther we all explored what types of data was available to us and together created a brief list with summaries of the databases we could find. We each were given the option to explore one database of our choosing ([link](https://github.com/cabinetofcuriosity/homebase/blob/master/list-of-databases.md)).  I choose Global Biotic Interactions (GLoBI) [globalbioticinteractions.org](https://www.globalbioticinteractions.org/), a database of biodiversity, which as the name implies, collates species interactions data from around the world. 
