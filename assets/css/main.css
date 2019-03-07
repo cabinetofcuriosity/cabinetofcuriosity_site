@@ -1,5 +1,22 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
+
+
+/* Ciera content
+   ========================================================================== */
+
+/*interview Questions*/
+intq {
+  color:#0A7494;
+  font-weight:bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
