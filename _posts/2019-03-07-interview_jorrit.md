@@ -55,7 +55,7 @@ Recently we found the time to discuss his work with GloBi and how he came to be 
 
 **JP**: First, and most importantly, treat datasets the same as research publications to ensure that future generations can reference and use your work. Similarly, treat your computer program like datasets and research publications. Others (including your future self) should be able to read, understand and perhaps even re-run your program against your original input data to reproduce your results. If you are tempted to follow the latest trends or fashion in data formats or programming language, ask yourself the question: would someone be able to read and understand the data and source code with methods available 10 years *ago*? When I ask myself this question, I often find that UTF-8 encoded text files for both data (e.g., tab-separated values) and source code are the way to go. 
 
-**CM**: <intq>Thank you Jorrit for taking the time to talk with me!</intq> For a more in depth look by Yikang Li please see her two posts: 
+**CM**: <intq>Thank you Jorrit for taking the time to talk with me!</intq> For a more in depth look at what GloBI has to offer see Yikang Li's last two posts: 
 
 1. [Measuring the interactions of species with GloBI](http://curiositydata.org/part1_globi_access/) 
 2. [Learn to ask about species interactions effectively using automation and network graph visualization](http://curiositydata.org/part2_globi_exploration/)
