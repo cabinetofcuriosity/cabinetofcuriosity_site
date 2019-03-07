@@ -8,7 +8,9 @@ layout: main
     {% if page.img %}
     {% else %}
     {% endif %}
-    <img src = "../assets/img/avatars/jorrit.png" width="200" class="center">
+    <p class="aligncenter">
+      <img src = "{{ "/assets/img/" | prepend: site.baseurl | append : page.avatar2}}" width="200">
+    </p>
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
