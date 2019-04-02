@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn to ask about species interactions effectively using automation and network graph visualization
+title: Dinosaurs of America
 date: 2019-04-02
 author: Zoe Liu
 avatar: avatars/zoe.png
@@ -16,17 +16,23 @@ tags: Tutorials
 
 In this notebook, we will be examining data from the [Paleobiology Database (PBDB)](https://paleobiodb.org/navigator/). Specifically, we will be looking at dinosaur and plant fossils found in the United States of America and observing how the areas where different fossils are found and if their locations are correlated. This notebook also aims to be a guide to the process of Paleobiodogy Database exploratory analysis and data cleaning.
 
-## What is the Paleobiology Database?
+# What is the Paleobiology Database?
 
 PBDB is a public database of paleontological data that anyone can use, maintained by an international non-governmental group of paleontologists. One of its main features is its navigator, which allows a user to sort data by geological time, taxa, authorizer, stratigraphy, and more. PBDB is run by the Department of Geoscience at the University of Wisconsin-Madison. The project team consists of Shanan Peters, Michael McClennan, and John Czaplewski. 
 
-## How do you access the data?
+# How do you access the data?
 
 PBDB is free to use and has no requirements for access. After sorting through the [PBDB navigator](https://paleobiodb.org/navigator/) and finding the dataset you want to download, click on the button to the left called "save map data". A window will appear, giving you two choices. You can either download the data as a CSV, JSON, TSV, or RIS file, or you can obtain a URL that can be used for external scripts such as R or Python. If you choose to download the data as a file, it can be used automatically for analysis. However, accessing the data by making HTTP requests is a little more intensive. This tutorial will teach you how to obtain the data desired by using the URL, and will require installation of Python and Jupyter. Download instructions can be found [here for Python](https://realpython.com/installing-python/) and [here for Jupyter](http://jupyter.org/install). In addition, documentation for the data service (including data recorded in the file and instructions on usage) can be found [here](https://paleobiodb.org/data1.2).
 
-## Why PBDB?
+# Why PBDB?
 
 The Paleobiology Database has an extensive dataset of different types of plant and animal fossils, and its navigator is visually stunning and well-designed. What drew me to PBDB was its large collection of dinosaur fossils, which is a topic I've always wanted to learn more about. I've heard it said that 3rd graders and scientists know the most about dinosaurs in the world. In this notebook, I will attempt to reach their level of dinsoaur mastery by analyzing the PBDB dinosaur dataset.
+
+<figure>
+    <img src="../assets/img/2019-04-04-dinosaurs_of_america_pt1/dino_1.jpg" alt="my alt text">
+  <center><figcaption> Triceratops <a href="https://www.biodiversitylibrary.org/page/39892689#page/401/mode/1up">biodiversitylibrary.org/page/39892689</a>
+  </figcaption></center>
+</figure>
 
 # Part I: Dinosaurs
 
@@ -817,7 +823,9 @@ interesting.head()
 
 Now we only have 9070 entries.
 
-### Going Back in Time
+## Going Back in Time
+
+<center><iframe src="https://giphy.com/embed/KL6leJilrOEVi" width="480" height="209" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/back-to-the-future-sunglasses-KL6leJilrOEVi"></a></center>
 
 Now let's take a look at the time component of the data.
 
@@ -1101,7 +1109,7 @@ plt.show()
 
 "Jurassic Park" should have been called "Cretaceous Park"! Dinosaurs lived during the Mesozoic era, which is composed of three periods: the Triassic, Jurrassic and the Cretaceous. It is likely that there are more fossils during the Cretaceous because it was closer in time to present-day. However, it is puzzling that there are so many fossils found during the Quaternary period, given that dinosaurs only lived millions of years before the Quaternary. Let's attempt to answer this question by looking at the location of dinosaur fossils.
 
-### Location of Dinosaur Fossils
+## Location of Dinosaur Fossils (and also their decendents - Birds!)
 
 Now, let's look at the spread of dinosaur fossils across the 50 states.
 
@@ -1374,7 +1382,13 @@ interesting[interesting["state"] == "California"].head()
 
 Interestingly, 4/5 of our first five entries are fossils found in the Neogene and Quaternary periods, millions of years after dinosaurs roamed the earth. *Miomancalla wetmorei*, shown in row 2, is a species of flightless auk, or penguin-esque birds (picture shown below). According to this page of [fossilworks.org](http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no=105697), which is a site that describes entries in PBDB, this specimen is a fossilized limb of an auk that lived roughly 7 million - 11 million years ago. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg" width="500"/> 
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg" width= 500 alt="my alt text">
+  <center><figcaption> Parakeetauklets <a href="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg">wikimedia.org</a>
+  </figcaption></center>
+</figure>
+
+
 
 **It turns out that our data not only contains dinosaur fossils, but also the fossils of their descendants!** Because I took all the results from the *Dinosauria* clade in the PBDB navigator, *Aves*, or birds, were also included due to their line of descent from theropoda dinosaurs (dinosaurs classified by their three toes and hollow limbs).
 
