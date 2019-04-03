@@ -1383,10 +1383,12 @@ interesting[interesting["state"] == "California"].head()
 Interestingly, 4/5 of our first five entries are fossils found in the Neogene and Quaternary periods, millions of years after dinosaurs roamed the earth. *Miomancalla wetmorei*, shown in row 2, is a species of flightless auk, or penguin-esque birds (picture shown below). According to this page of [fossilworks.org](http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no=105697), which is a site that describes entries in PBDB, this specimen is a fossilized limb of an auk that lived roughly 7 million - 11 million years ago. 
 
 <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg" width= 500 alt="my alt text">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg" alt="alt text">
   <center><figcaption> Parakeetauklets <a href="https://upload.wikimedia.org/wikipedia/commons/5/59/Parakeetauklets2.jpg">wikimedia.org</a>
   </figcaption></center>
 </figure>
+
+
 
 
 
@@ -1466,7 +1468,14 @@ plt.show()
 
 Our top fossil in terms of count is the [Hadrosauridae](https://en.wikipedia.org/wiki/Hadrosaurid), commonly characterized by their duck-billed beaks. They are descendants of the Upper Jurassic/Lower Cretaceous iguanodontian dinosaurs and were most commonly found in the late Cretaceous era. Although Hadrosauridae can grow very large (28 feet long), they are herbivores, with their duck bills are evolved for grinding plants.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Knight_hadrosaurs.jpg" width="500"/>
+
+
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Knight_hadrosaurs.jpg" alt="alt text">
+  <center><figcaption> Hadrosaurs - duck billed dinosaurs <a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Knight_hadrosaurs.jpg">wikimedia.org</a>
+  </figcaption></center>
+</figure>
+
 
 Now let's look at the distributions of the most common dinosaurs across the geological periods using a [facetgrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html). To keep our visualization clutter-free, we'll limit our dinosaurs to the top 10 most common.
 
