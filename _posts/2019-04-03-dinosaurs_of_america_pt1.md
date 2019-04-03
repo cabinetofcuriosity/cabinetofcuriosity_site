@@ -13,18 +13,17 @@ legend: https://biodiversitylibrary.org/page/39892613
 tags: Tutorials
 ---
 
-
 In this post, we will be examining data from the [Paleobiology Database (PBDB)](https://paleobiodb.org/navigator/). Specifically, we will be looking at dinosaur and plant fossils found in the United States of America and observing how the areas where different fossils are found and if their locations are correlated. This notebook also aims to be a guide to the process of Paleobiodogy Database exploratory analysis and data cleaning.
 
-# What is the Paleobiology Database?
+## What is the Paleobiology Database?
 
 PBDB is a public database of paleontological data that anyone can use, maintained by an international non-governmental group of paleontologists. One of its main features is its navigator, which allows a user to sort data by geological time, taxa, authorizer, stratigraphy, and more. PBDB is run by the Department of Geoscience at the University of Wisconsin-Madison. The project team consists of Shanan Peters, Michael McClennan, and John Czaplewski. 
 
-# How do you access the data?
+## How do you access the data?
 
 PBDB is free to use and has no requirements for access. After sorting through the [PBDB navigator](https://paleobiodb.org/navigator/) and finding the dataset you want to download, click on the button to the left called "save map data". A window will appear, giving you two choices. You can either download the data as a CSV, JSON, TSV, or RIS file, or you can obtain a URL that can be used for external scripts such as R or Python. If you choose to download the data as a file, it can be used automatically for analysis. However, accessing the data by making HTTP requests is a little more intensive. This tutorial will teach you how to obtain the data desired by using the URL, and will require installation of Python and Jupyter. Download instructions can be found [here for Python](https://realpython.com/installing-python/) and [here for Jupyter](http://jupyter.org/install). In addition, documentation for the data service (including data recorded in the file and instructions on usage) can be found [here](https://paleobiodb.org/data1.2).
 
-# Why PBDB?
+## Why PBDB?
 
 The Paleobiology Database has an extensive dataset of different types of plant and animal fossils, and its navigator is visually stunning and well-designed. What drew me to PBDB was its large collection of dinosaur fossils, which is a topic I've always wanted to learn more about. I've heard it said that 3rd graders and scientists know the most about dinosaurs in the world. In this notebook, I will attempt to reach their level of dinsoaur mastery by analyzing the PBDB dinosaur dataset.
 
@@ -34,9 +33,15 @@ The Paleobiology Database has an extensive dataset of different types of plant a
   </figcaption></center>
 </figure>
 
-# Part I: Dinosaurs
+## Following along with the tutorial
 
-Now we will get started with the coding! In order to follow along you can just read below, or if you want to interact with the code you have two options 1. clone [the repository](https://github.com/cabinetofcuriosity/paleobiology_DB_explore) onto your computer or 2. Explore using mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cabinetofcuriosity/paleobiology_DB_explore/master). If using mybinder, please be patient while the enviroment builds, this tutorial is pretty large.  It takes about 10 minutes. 
+Now we will get started with the coding! In order to follow along you can 
+
+1. just continue reading
+2. clone [the repository](https://github.com/cabinetofcuriosity/paleobiology_DB_explore) onto your computer
+3. Explore using mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cabinetofcuriosity/paleobiology_DB_explore/master). Please be patient while the enviroment builds (about 10 min), this tutorial is pretty large.  
+
+# Part I: Dinosaurs
 
 First, let's gather the data we want to further examine. We will do this by making a HTTP request with the URL corresponding to the location of the data we want to look at. 
 
