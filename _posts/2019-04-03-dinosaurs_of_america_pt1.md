@@ -14,7 +14,7 @@ tags: Tutorials
 ---
 
 
-In this notebook, we will be examining data from the [Paleobiology Database (PBDB)](https://paleobiodb.org/navigator/). Specifically, we will be looking at dinosaur and plant fossils found in the United States of America and observing how the areas where different fossils are found and if their locations are correlated. This notebook also aims to be a guide to the process of Paleobiodogy Database exploratory analysis and data cleaning.
+In this post, we will be examining data from the [Paleobiology Database (PBDB)](https://paleobiodb.org/navigator/). Specifically, we will be looking at dinosaur and plant fossils found in the United States of America and observing how the areas where different fossils are found and if their locations are correlated. This notebook also aims to be a guide to the process of Paleobiodogy Database exploratory analysis and data cleaning.
 
 # What is the Paleobiology Database?
 
@@ -36,7 +36,10 @@ The Paleobiology Database has an extensive dataset of different types of plant a
 
 # Part I: Dinosaurs
 
+Now we will get started with the coding! In order to follow along you can just read below, or if you want to interact with the code you have two options 1. clone [the repository](https://github.com/cabinetofcuriosity/paleobiology_DB_explore) onto your computer or 2. Explore using mybinder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cabinetofcuriosity/paleobiology_DB_explore/master). If using mybinder, please be patient while the enviroment builds, this tutorial is pretty large.  It takes about 10 minutes. 
+
 First, let's gather the data we want to further examine. We will do this by making a HTTP request with the URL corresponding to the location of the data we want to look at. 
+
 In order to obtain the URL:
 1. Access the [PBDB navigator](https://paleobiodb.org/navigator/)
 2. Choose the specimen you want to examine
