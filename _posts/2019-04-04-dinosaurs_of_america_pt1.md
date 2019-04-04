@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dinosaurs of America
-date: 2019-04-02
+date: 2019-04-04
 author: Zoe Liu
 avatar: avatars/zoe.png
 description: null
