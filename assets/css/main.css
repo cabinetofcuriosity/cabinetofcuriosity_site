@@ -14,6 +14,15 @@ intq {
 .aligncenter {
     text-align: center;
 }
+
+figure_right {
+  float: right;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
