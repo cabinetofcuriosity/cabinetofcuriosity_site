@@ -15,7 +15,7 @@ legend:
 tags: Interviews
 ---
 
-This year I have had the honor of talking with many curators, tool builders, and data scientists within the Biodiversity and Natural History Data Community. During these conversations, Deb Paul has come up again and again in many different contexts. She is an obvious vital component of many different overlapping communities. Deb is has a unique ability to synthesize connections between both people, the technology we use, and how we learn.  I recently talked with her about work in her current position as Technological and Digitization Specialist at iDIGbio. We discussed her background in science, empathy in training, the future of digital data, and our eerily similar career path that both started in ceramics.  
+This year I have had the honor of talking with many curators, tool builders, and data scientists within the Biodiversity and Natural History Data Community. During these conversations, Deb Paul has come up again and again in many different contexts. She is an obvious vital component of many different overlapping communities. Deb is has a unique ability to synthesize connections between people, the technology we use, and how we learn.  I recently talked with her about her work in her current position as Technological and Digitization Specialist at iDIGbio. We discussed her background in science, empathy in training, the future of digital data, and our eerily similar career path that both started in ceramics.  
 
 **Ciera (CM)**: So, can you first articulate what your job is exactly? 
 
