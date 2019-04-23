@@ -181,10 +181,3 @@ I think with IT people, number one, I’m not afraid to ask a question. But, as 
 **DP**:	First, partner with someone who does know how to program, but don't let this stop you if you don't have such a partner. See tools like [GLOBI](https://www.globalbioticinteractions.org/) where you can make discoveries w/o being a programmer. You can expect more tools (like GLOBI, Open Refine, [GUODA](http://guoda.bio/)) that in the future will change how scientific investigation happens. Also,  take a Carpentries workshop! Just try it.Visit the booths at professional meetings like the upcoming Data Help Desk at the Ecological Society of America -- we're there to help you and help you find mentors. And find a GBIF Science Ambassador, for example, and then become one :-)
 
 **CM**:	Awesome advice! I have heard from so many people about how much they appreciate your advice, training and overall what you are bringing to the biodiversity community. Thank you so much for taking the time to talk with me today!
-
-<figure_right>
-  <img src="../assets/img/2019-04-22-interview_deb/cartoon.png"
-    width="300" 
-    alt="cartoon">
-  <figcaption>Illustration by <a href="https://twitter.com/goodstickltd?lang=en">@GoodStickLtd</a></figcaption>
-</figure_right>
