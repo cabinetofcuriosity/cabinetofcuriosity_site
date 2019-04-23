@@ -15,6 +15,8 @@ legend:
 tags: Interviews
 ---
 
+This year I have had the honor of talking with many curators, tool builders, and data scientists within the Biodiversity and Natural History Data Community. During these conversations, Deb Paul has come up again and again in many different contexts. She is an obvious vital component of many different overlapping communities. Deb is has a unique ability to synthesize connections between both people, the technology we use, and how we learn.  I recently talked with her about work in her current position as Technological and Digitization Specialist at iDIGbio. We discussed her background in science, empathy in training, the future of digital data, and our eerily similar career path that both started in ceramics.  
+
 **Ciera (CM)**: So, can you first articulate what your job is exactly? 
 
 **Deb Paul (DP)**: 	My job at [iDigBio](https://www.idigbio.org/) at the moment involves community building to foster digitization of scientific collections and research use of the data. So, one component of that is workforce training or enabling others to provide training and expertise. The community members range from collectors, to collection and data managers in the museum to those downloading the data from iDigBio, or GBIF or anywhere to use it for research, policy, conservation, outreach, or other purposes.
