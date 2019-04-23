@@ -121,7 +121,7 @@ So, they become more like you were saying, data-literate, so that the language t
 
 Other skills that come to my mind because I work with the collections community, directly relevant to them are their need to understand: relational databases; managing their expectation for how those databases behave. They should also, knowing the relevant data standards so that when they’re developing policies, that they’re sharing those with people who are bringing in new data. That the data comes in already mapped to relevant standards. Knowing this type of information and having this literacy also fosters the communications between IT staff and non-IT staff.
 
-Ciera: 	In your opinion, what are some of the biggest challenges that face the biodiversity data community at this time?
+**CM**: In your opinion, what are some of the biggest challenges that face the biodiversity data community at this time?
 
 **DP**:	So the biggest challenge I think is human shortage of folks with the needed skills and literacy. And the ones we do have keep getting asked to the table over and these people are over-asked because there just aren’t any more, and they are overwhelmed. This is in Europe as well too; this is not just here.
 
@@ -153,7 +153,7 @@ We are talking about these issues and more at the upcoming [Biodiversity Next](h
 
 And, strictly focusing on biodiversity data use,  check out the upcoming [Digital Data III meeting](https://www.idigbio.org/wiki/index.php/Yale_Digital_Data_Lodging_information) at Yale in June 2019. 
 
-Ciera: 	I think one of the ways in which you are really appreciated within the Museum community is your empathetic nature to for teaching / learning data science skills.  What are some of the ways in which you cultivate this attitude?
+**CM**: 	I think one of the ways in which you are really appreciated within the Museum community is your empathetic nature to for teaching / learning data science skills.  What are some of the ways in which you cultivate this attitude?
 
 **DP**:	Hm, that’s an interesting question. And thanks for sharing that observation. Maybe it’s in part from empathy, resulting from my own experiences. So, I don’t know if we consider that a method of cultivation, but you could ask people to draw on times or situations in which they found something very difficult. And for me, like I said, that would be mathematics. In fifth grade I can remember asking for help for the nth time, they’d be like “don’t worry you won’t need it, you’ll, you’ll be married, and you’ll have a man for that.”
 
@@ -166,9 +166,9 @@ It also came to going back to school a second time, and giving myself that permi
 **CM**:	o, how do you cultivate the opposite to like the programmers and math people being empathetic to people new to these skills?
 
 
-Deb: 	Oh! Yes, that’s key! I think for them—I’m married to one, first of all, and when we were first dating, and he would explain to me something, I’d be like, “Nope, don’t get it yet. You’re explaining way up here [my hand pointing way up in the sky], and I’m down here,” and he’d try again (and again). He learned and I learned that we both needed to check to make sure we were understood, and try again if at first there is no joy.
+**DP**: 	Oh! Yes, that’s key! I think for them—I’m married to one, first of all, and when we were first dating, and he would explain to me something, I’d be like, “Nope, don’t get it yet. You’re explaining way up here [my hand pointing way up in the sky], and I’m down here,” and he’d try again (and again). He learned and I learned that we both needed to check to make sure we were understood, and try again if at first there is no joy.
 
-**DP**:	But I think him going through trying to explain things to me, both made him a better programmer and a better communicator, but also gave me an appreciation and understanding for their specialized vocabulary and the way that they think. In other words, the programmers and math people need to practice this skill.
+But I think him going through trying to explain things to me, both made him a better programmer and a better communicator, but also gave me an appreciation and understanding for their specialized vocabulary and the way that they think. In other words, the programmers and math people need to practice this skill.
 
 And I always try very carefully when choosing any IT people I’m going to collaborate with. I’m listening when they speak (e.g. answering other folk’s questions) to see if I can understand their answers, to see what kind of attitude they bring to the conversation, to see how they react if their answers aren’t understood. Fomer iDigBio colleague Matt Collins is an example. I would say to Matt, using an SQL example, “Matt, for this field in our database, I would like distinct values and a count,” and he’s like [teasing me], “Deb, no, you don’t.” I’m like, “yes yes, I do.” And he says, “No, you want that for every field in the database.” And I went, “Oh! Yes, that would be amazing!–”
 	
