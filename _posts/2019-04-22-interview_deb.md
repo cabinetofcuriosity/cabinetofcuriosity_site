@@ -21,14 +21,6 @@ This year I have had the honor of talking with many curators, tool builders, and
 
 **Deb Paul (DP)**: 	My job at [iDigBio](https://www.idigbio.org/) at the moment involves community building to foster digitization of scientific collections and research use of the data. So, one component of that is workforce training or enabling others to provide training and expertise. The community members range from collectors, to collection and data managers in the museum to those downloading the data from iDigBio, or GBIF or anywhere to use it for research, policy, conservation, outreach, or other purposes.
 
-<figure_right>
-  <img src="../assets/img/2019-04-22-interview_deb/cartoon.png"
-    width="300" 
-    alt="cartoon">
-  <figcaption>Illustration by <a href="https://twitter.com/goodstickltd?lang=en">@GoodStickLtd</a></figcaption>
-</figure_right>
-
-
 **CM**:	You also do all sorts of training?
 
 **DP**:	Yes. Let’s say you want your digitization project in your museum go faster, well, you could possibly write a faster or better computer program. You could buy more cyberinfrastructure, or increase bandwidth, all these things. But it is people doing the work, and to speed up processes they will need skills and knowledge (and empowerment). Without this literacy it is also difficult to get the data quality desired. People are our greatest resource in getting collections data mobilized and they both need and deserve investment.
@@ -54,7 +46,6 @@ I just went to this meeting I told you about of entomologists—and there was a 
   <center><figcaption> From <a href="https://twitter.com/idbdeb/status/1113847349460258817">Deb's tweet</a> from #NSFFunded Large Facilities Workshop
   </figcaption></center>
 </figure>
-
 
 **CM**:	Oh, cool!
 
@@ -190,3 +181,10 @@ I think with IT people, number one, I’m not afraid to ask a question. But, as 
 **DP**:	First, partner with someone who does know how to program, but don't let this stop you if you don't have such a partner. See tools like [GLOBI](https://www.globalbioticinteractions.org/) where you can make discoveries w/o being a programmer. You can expect more tools (like GLOBI, Open Refine, [GUODA](http://guoda.bio/)) that in the future will change how scientific investigation happens. Also,  take a Carpentries workshop! Just try it.Visit the booths at professional meetings like the upcoming Data Help Desk at the Ecological Society of America -- we're there to help you and help you find mentors. And find a GBIF Science Ambassador, for example, and then become one :-)
 
 **CM**:	Awesome advice! I have heard from so many people about how much they appreciate your advice, training and overall what you are bringing to the biodiversity community. Thank you so much for taking the time to talk with me today!
+
+<figure_right>
+  <img src="../assets/img/2019-04-22-interview_deb/cartoon.png"
+    width="300" 
+    alt="cartoon">
+  <figcaption>Illustration by <a href="https://twitter.com/goodstickltd?lang=en">@GoodStickLtd</a></figcaption>
+</figure_right>
