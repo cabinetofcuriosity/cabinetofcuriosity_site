@@ -13,8 +13,11 @@ legend: thegreatcoursesdaily.com/fossils-life-cast-in-ancient-stone/
 tags: Tutorials
 ---
 
+<br>
 
-This post is a continuation of my first tutorial I wrote, where I just looked at the Dinosaur data, but I also became interested in the other fossils in our dataset - plants! In this analysis we explore what types of plants were around and their proximity to dinosaurs. We introduce a strategy to find which dinosaur fossils are closest to plant fossil points to understand the plant landscape that dinosaurs species lived in (and possibly even ate!). 
+This post is a continuation of my [first tutorial](http://curiositydata.org/dinosaurs_of_america_pt1/) where I looked at the dinosaur fossil location data, in this post I will walk through other fossil types in the the [Paleobiology Database (PBDB)](https://paleobiodb.org/navigator/) - plants!  We will be exploring how to map different types of fossils onto an interacitve map using [plot.ly](https://plot.ly). We will also look at where and which plant species fossil are most common and introduce a strategy to find which dinosaur fossils are closest to plant fossils to understand the plant landscape and ecosystem in which specific dinosaur species lived (and possibly even ate!). 
+
+<br>
 
 
 ```python
