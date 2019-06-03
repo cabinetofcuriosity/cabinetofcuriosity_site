@@ -8,8 +8,8 @@ description: null
 output: 
   html_document: 
     keep_md: yes
-img: 
-legend: 
+img: 2019-06-03-plotting_fire_data/fire_header.png 
+legend: www.pexels.com/photo/forest-tree-fire-hot-50700/
 tags: Tutorials
 ---
 
